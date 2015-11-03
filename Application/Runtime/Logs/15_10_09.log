@@ -1,0 +1,21 @@
+[ 2015-10-09T15:54:55+08:00 ] ::1 /jsbdlab/index.php/Home/Index/picnews/id/1.html
+ERR: 模板不存在:./Application/Home/View/Index/picnews.html
+
+[ 2015-10-09T16:27:50+08:00 ] ::1 /jsbdlab/index.php/Home/Lab/picnews/id/1.html
+ERR: XML标签语法错误
+
+[ 2015-10-09T16:28:03+08:00 ] ::1 /jsbdlab/index.php/Home/Lab/picnews/id/1.html
+ERR: XML标签语法错误
+
+[ 2015-10-09T19:31:00+08:00 ] ::1 /jsbdlab/index.php/Home/Lab/labint.html
+ERR: 非法操作:labint
+
+[ 2015-10-09T19:54:25+08:00 ] ::1 /jsbdlab/index.php/Home/Index/listpicnews/id/1.html
+ERR: 模板不存在:./Application/Home/View/Index/listpicnews.html
+
+[ 2015-10-09T21:17:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/picnewsnext/id/1.html
+ERR: 模板不存在:./Application/Home/View/Index/picnewsnext.html
+
+[ 2015-10-09T21:28:23+08:00 ] ::1 /jsbdlab/index.php/Home/Index/picnewsnext/id/1.html
+ERR: 模板不存在:./Application/Home/View/Index/picnewsnext.html
+

@@ -1,0 +1,63 @@
+<include file="Common:head"/>
+<style>
+    html ,body{
+        height: 100%;
+    }
+</style>
+<script src="__ROOT__/Public/ueditor/ueditor.config.js"></script>
+<script src="__ROOT__/Public/ueditor/ueditor.all.min.js"></script>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <center>Edit User equipment Information</center>
+                </div>
+                <div class="panel-body">
+                    <form action="{:U('Admin/Lab/adduinfohandle')}" method="post" role="form" id="ff" onsubmit=" return check()" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label>Information:</label>
+                            <textarea id="con" name="con" type="text/plain"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <center><input type="submit" class="btn btn-primary" value="Submit"></center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var ue = UE.getEditor('con',{
+        allowDivTransToP: false,
+        autoHeightEnabled: false,
+        initialFrameWidth:900  ,//初始化编辑器宽度,默认1000
+        initialFrameHeight:300 ,//初始化编辑器高度,默认320
+        toolbars: [[
+            'fullscreen', 'source', '|', 'undo', 'redo', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+            'customstyle', 'fontfamily', 'fontsize', '|',
+            'link', 'unlink',  '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+            'simpleupload','template', '|',
+            'horizontal', 'date', 'time', 'spechars', 'wordimage', '|',
+             'preview',
+        ]]
+    });
+
+    function check(){
+        var content = UE.getEditor('con').hasContents();
+        if (content == '') {
+            
+            info = '  Information can not be empty';
+            alert(info);
+            return false;
+        }else{
+            return true;
+        }
+    }
+</script>
+</html>

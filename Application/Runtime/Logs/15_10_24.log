@@ -1,0 +1,18 @@
+[ 2015-10-24T18:23:45+08:00 ] ::1 /jsbdlab/index.php/Admin/rank/down_order/id/2.html
+ERR: 非法操作:down_order
+
+[ 2015-10-24T18:24:00+08:00 ] ::1 /jsbdlab/index.php/Admin/rank/down_fpic_order/id/1.html
+ERR: 非法操作:down_fpic_order
+
+[ 2015-10-24T18:42:28+08:00 ] ::1 /jsbdlab/index.php/Admin/rank/down_fpic_order/id/1.html
+ERR: 非法操作:down_fpic_order
+
+[ 2015-10-24T18:54:30+08:00 ] ::1 /jsbdlab/index.php/Admin/rank/down_labnews_opder/id/9.html
+ERR: 非法操作:down_labnews_opder
+
+[ 2015-10-24T18:58:04+08:00 ] ::1 /jsbdlab/index.php/Admin/rank/down_labnews_opder/id/10.html
+ERR: 非法操作:down_labnews_opder
+
+[ 2015-10-24T19:32:04+08:00 ] ::1 /jsbdlab/index.php/Admin/rank/up_lpic_order/id/1.html
+ERR: 非法操作:up_lpic_order
+

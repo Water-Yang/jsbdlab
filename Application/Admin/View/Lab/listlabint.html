@@ -1,0 +1,60 @@
+<include file="Common:head"/>
+<link rel="stylesheet" href="__CSS__/button.css">
+<link rel="stylesheet" href="__CSS__/pagenation.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<body >
+ <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+              <li class="glyphicon glyphicon-book"></li>&nbsp;&nbsp;<b>Introduction to laboratory</b>
+            </div>
+            <div class="panel-body">
+                <div class="table-response">
+                   <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <td class="col-xs-1"><center>ID</center></td>
+                          <td class="col-xs-6"><center><b>Content</b></center></td>
+                          <td class="col-xs-1"><center>Activation</center></td>
+                          <td class="col-xs-4"><center><b>Operation</b></center></td>
+                        </tr>
+                      </thead>
+                      <foreach name="li" item="kk">
+                         <tbody>
+                          <tr>
+                            <td><center> <button class="button button-primary button-circle button-small">{$kk['id']}</button></center></td>
+                            <td>{$kk['content']}...</td>
+                            <td>
+                              <center>
+                                <if condition="$kk[active] eq 1">
+                                  <button class="button button-action button-circle button-samll"> Y</button>
+                                    <else/>
+                                  <button class="button button-caution button-circle button-samll">N</button>
+                                </if>
+                              </center>
+                            </td>
+                            <td>
+                             <center><p>
+                              <a href="{:U('Admin/Lab/relab',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">修改</a>
+                              <a href="{:U('Admin/Lab/dellabint',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">删除</a>
+                              <a href="{:U('Admin/Lab/labactive',array('id'=>$kk['id']))}" class="button button-primary button-pill button-tiny">发表</a></p>
+                              </center>
+                              <center><p>
+                                  <a href="{:U('Admin/rank/ccllabint',array('id'=>$kk['id']))}" class="button button-primary button-pill button-tiny">取消</a></p>
+                              </center>
+                            </td>
+                          </tr>
+                         </tbody>
+                      </foreach>
+                   </table> 
+                   <div class="pagenation pagenation-small"><center>{$page}</center></div>       
+                </div> 
+            </div>     
+        </div>
+      </div>          
+    </div>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,50 @@
+<link href="__CSS__/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+<script src="__JS__/jquery.min.js"></script>
+    <script src="__JS__/jquery-2.1.4.min.js"></script>
+<link href="__CSS__/navv.css" rel="stylesheet" type="text/css" media="all" />	
+<meta name ="viewport" content ="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<!-- uc浏览器的时候强制竖屏 -->
+<meta name="screen-orientation" content="portrait" />
+<!-- 360浏览器的时候强制竖屏 -->
+<meta name="x5-orientation" content="portrait" />
+<link rel="stylesheet" type="text/css" href="__CSS__/button.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="__JS__/responsive.js"></script>
+<body> 
+<!--header-->
+<style>
+	.dd{
+		border-radius: 6px; 
+	}
+</style>	
+<div class="header navbar-fixed-top" >
+	<div class="header-top">
+			<div class="head-top">
+				<div class="logo">
+					<h1><a href="{:U('Home/Index/index')}"><span><img src="__IMG__/logo.png">JIANGSU BIG-DATA LAB</span></a></h1>
+				</div>
+			<div class="top-nav">		
+			  <span class="menu"><img src="__IMG__/dd.png" class="dd"></span>
+					<ul>
+						<li class="active" ><a href="{:U('Home/Index/index')}">Home</a></li>
+						<li><a href="{:U('Home/Lab/labint')}">Research</a></li>
+						<li><a href="{:U('Home/Index/bdt')}">Bigdata</a></li>
+						<li><a href="{:U('Home/Lab/people')}">People</a></li>
+						<li><a  href="#"  >Login</a></li>
+						<li><a href="{:U('Home/Lab/contact')}">Contact Us</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- header -->
+<script>
+		$("span.menu").click(function(){
+			$(".top-nav ul").slideToggle(500, function(){
+			});
+		});
+
+</script>
+
+

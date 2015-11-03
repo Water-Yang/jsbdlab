@@ -1,0 +1,53 @@
+<include file="Common:head"/>
+<style>
+	html ,body{
+		height: 100%;
+	}
+</style>
+<script src="__ROOT__/Public/ueditor/ueditor.config.js"></script>
+<script src="__ROOT__/Public/ueditor/ueditor.all.min.js"></script>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<center>Revise Password</center>
+					</div>
+					<div class="panel-body">
+						<form action="{:U('Admin/Lab/repwdhandle')}" method="post" role="form" id="ff" onsubmit=" return check()" enctype="multipart/form-data">
+					       <div class="form-group">
+					        <label> New password：</label>
+					        <input type="text" class="form-control" name="password1">
+				         	</div>
+                  <div class="form-group">
+                  <label class="control-label">Repeat Password:</label>
+                  <input type="text" class="form-control" name="password2" >
+                  </div>
+				         	<div class="form-group">
+				         		<center><input type="submit" class="btn btn-primary" value="Revise" ></center>
+				         	</div>
+				        </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+ <script type="text/javascript">
+ function check(){
+     var kk= document.getElementById('ff');
+     if(kk.password1.value == ''||kk.password2.value ==''){
+     	 var info = ' password cannot be empty!';
+       alert(info);
+       return false;
+     }else{
+      if(kk.password1.value != kk.password2.value){
+        var info = 'the password you inputed are not same!';
+        alert(info);
+        return false;
+      }
+     }
+ }
+    </script>
+</html>

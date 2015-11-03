@@ -1,0 +1,63 @@
+<include file="Common:head"/>
+<link rel="stylesheet" href="__CSS__/button.css">
+<link rel="stylesheet" href="__CSS__/pagenation.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<body >
+	<div class="container">
+		<div class="row">
+		    <div class="col-md-12">
+				<div class="panel panel-default">
+				    <div class="panel-heading">
+				      <li class="glyphicon glyphicon-book"></li>&nbsp;&nbsp;Laboratory news picture
+				    </div>
+				    <div class="panel-body">
+				    	<div class="table-response">
+				            <table class="table table-bordered">
+				                <thead>
+				                	<tr>
+				                	    <td class="col-xs-1"><center><b>ID</b></center></td>
+					            		<td class="col-xs-6"><center><b>Title</b></center></td>
+					            		<td class="col-xs-1"><center><b>Activation</b></center></td>
+					            		<td class="col-xs-4"><center><b>Operation</b></center></td>
+				                	</tr>
+				                </thead>
+				                <foreach name="pic" item="kk">
+				                   <tbody>
+				                     	<tr>
+					                   	    <td><center> <button class="button button-primary button-circle button-small">{$kk['id']}</button></center></td>
+					                   		<td>{$kk['ptitle']}</td>
+					                   		<td>
+					                   			<center>
+					                   			<if condition="$kk[active] eq 1">
+				                                   <button class="button button-action button-circle button-tiny"> Y</button>
+				                                <else/>
+				                                 <button class="button button-caution button-circle button-tiny">N</button>
+				                                </if>
+					                   			</center>
+					                   		</td>
+					                   		<td>
+					                   			 <center><p>
+					                   			 <a href="{:U('Admin/Index/repic',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">修改</a>
+					                   			<a href="{:U('Admin/Index/delpic',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">删除</a>
+					                   			<a href="{:U('Admin/Index/apicnews',array('id'=>$kk['id']))}" class="button button-primary button-pill button-tiny">发表</a>
+					                   			</p><p>
+					                   			<a href="{:U('Admin/rank/up_picnews_order',array('id'=>$kk['id']))}" class="button button-primary button-pill button-tiny">升一位</a>
+					                   			<a href="{:U('Admin/rank/cclpicnews',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">取消</a>
+					                   			<a href="{:U('Admin/rank/down_picnews_order',array('id'=>$kk['id']))}" class="button button-primary button-pill button-tiny">降一位</a>
+					                   			</p>
+					                   			</center>
+					                   		</td>
+				                   	    </tr>
+				                   </tbody>
+		                        </foreach>
+		                    </table> 
+		                    <div class="pagenation pagenation-small"><center>{$page}</center></div>     	
+		                </div> 
+				    </div>	    
+				</div>
+            </div> 		      
+	    </div>
+	</div>    
+</div>
+</body>
+</html>

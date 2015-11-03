@@ -1,0 +1,14 @@
+@media screen and (max-width:3800px ){
+       .col-xs-2 .picone{
+    	 height:100px !important;
+    	 width:80px !important;
+    }
+}
+@media screen and (max-width: 414px){
+  
+    .col-xs-2 .picone{
+    	
+    	width: 60px;
+    	height: 80px;
+    }
+}

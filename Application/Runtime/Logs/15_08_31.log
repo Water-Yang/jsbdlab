@@ -1,0 +1,2079 @@
+[ 2015-08-31T09:22:32+08:00 ] ::1 /jsbdlab/index.php/Home/Index/bdt.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_bdpeople` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 0,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_event` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,10000   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bd_satc` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_satc` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `bd_satc` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,100   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T09:22:32+08:00 ] ::1 /jsbdlab/index.php/Home/Index/bdt.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.062003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_bdpeople` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 0,20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_event` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,10000   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_satc` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_satc` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_satc` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,100   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T09:22:33+08:00 ] ::1 /jsbdlab/index.php/Home/Index/bdt.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_bdpeople` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 0,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_event` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,10000   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_satc` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_satc` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_satc` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,100   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T09:22:35+08:00 ] ::1 /jsbdlab/index.php/Home/Index/bdt.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_bdpeople` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 0,20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_event` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,10000   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_satc` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_satc` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_satc` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,100   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T09:22:36+08:00 ] ::1 /jsbdlab/index.php/Home/Index/bdt.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_bdpeople` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 0,20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_event` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,10000   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_satc` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_satc` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_satc` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,100   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-31T09:22:36+08:00 ] ::1 /jsbdlab/index.php/Home/Index/bdt.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_bdpeople` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 0,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_event` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,10000   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bd_satc` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bd_satc` WHERE ( `active` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `bd_satc` WHERE ( `active` = 1 ) ORDER BY id desc LIMIT 0,100   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T09:23:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/listBdpOne/id/17.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T09:23:05+08:00 ] ::1 /jsbdlab/index.php/Home/Index/listBdpOne/id/17.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T09:23:06+08:00 ] ::1 /jsbdlab/index.php/Home/Index/listBdpOne/id/17.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-31T09:23:06+08:00 ] ::1 /jsbdlab/index.php/Home/Index/listBdpOne/id/17.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-31T09:23:08+08:00 ] ::1 /jsbdlab/index.php/Home/Index/listBdpOne/id/17.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-31T18:42:23+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-31T18:42:41+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-31T18:43:26+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:27+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:42+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:43+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:43+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:44+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:55+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:56+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:56+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:43:56+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) ORDER BY bname LIMIT 20   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:45:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+
+[ 2015-08-31T18:45:06+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+
+[ 2015-08-31T18:46:11+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004001s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND (  ) ORDER BY bname LIMIT 20   [ RunTime:0.025001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 20' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND (  ) ORDER BY bname LIMIT 20  
+
+[ 2015-08-31T18:46:33+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>18 ) ORDER BY bname LIMIT 20   [ RunTime:0.138008s ]
+
+[ 2015-08-31T18:46:51+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>18 ) ORDER BY bname LIMIT 20   [ RunTime:0.000000s ]
+
+[ 2015-08-31T18:47:10+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 20   [ RunTime:0.000000s ]
+
+[ 2015-08-31T18:47:47+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T18:48:16+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T18:51:45+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T18:51:45+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:02:16+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:02:22+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:02:23+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:03:58+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:04:00+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:04:01+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:04:01+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:04:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:04:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:04:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:04:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:04:05+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:04:05+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:04:06+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:04:06+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:04:06+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:05:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:08+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:05:20+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:05:21+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:05:21+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:57+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:58+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:59+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:59+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:05:59+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:06:00+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:06:23+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:06:24+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:06:46+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:06:47+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:07:09+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:07:10+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:07:11+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:07:12+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:07:12+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:07:13+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.045003s ]
+
+[ 2015-08-31T19:07:49+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:07:50+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:07:51+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:07:51+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:08:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:09:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:11:56+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:11:59+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:12:00+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:12:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:12:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:13:33+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:13:34+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:13:34+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:13:35+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:13:35+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:16:26+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:16:27+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:17:21+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:18:25+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:18:26+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:18:42+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:18:43+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:19:00+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:19:01+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY bname LIMIT 10' at line 1
+ [ SQL语句 ] : SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id< ) ORDER BY bname LIMIT 10  
+
+[ 2015-08-31T19:19:49+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:19:50+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:20:53+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:22:01+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:23:27+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:23:29+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:23:30+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:23:32+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:23:34+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:23:36+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:24:25+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:26:36+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:27:36+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:32:14+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:32:16+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:32:17+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:32:32+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:32:32+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:32:33+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:32:33+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:32:33+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:34:25+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:34:57+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:36:09+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:36:30+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:36:47+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:36:50+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:36:51+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:36:59+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:37:01+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:38:56+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:38:57+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:39:31+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:39:52+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:42:44+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:48:25+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T19:49:26+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:49:34+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:50:01+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:50:48+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:50:50+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T19:50:52+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:51:15+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:52:07+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T19:53:37+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:07:59+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:08:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:08:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:08:44+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:08:45+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:08:46+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:09:12+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:09:14+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:09:15+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:09:38+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:10:39+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:10:51+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:10:53+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:11:40+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:12:53+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:14:52+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:14:55+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.002000s ]
+
+[ 2015-08-31T20:15:49+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:20:19+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:20:20+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:20:21+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:20:21+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:20:46+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:20:49+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:20:51+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:20:52+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:20:53+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:22:08+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:22:21+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:25:35+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:27:28+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:29:50+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:32:36+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:33:06+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:33:55+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:34:47+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:35:05+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:36:52+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:36:53+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:53:25+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:54:01+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:54:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:54:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:54:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:54:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:54:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:54:03+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:54:19+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:54:20+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:54:20+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:55:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:55:02+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:55:29+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:55:30+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T20:55:30+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:56:34+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:57:31+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:57:38+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:58:41+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:59:46+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+
+[ 2015-08-31T20:59:53+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001001s ]
+
+[ 2015-08-31T21:04:59+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T21:05:31+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2015-08-31T21:06:11+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp\www\jsbdlab\ThinkPHP\Common\functions.php 第 1092 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\xampp\www\jsbdlab\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id<18 ) ORDER BY bname LIMIT 10   [ RunTime:0.000000s ]
+

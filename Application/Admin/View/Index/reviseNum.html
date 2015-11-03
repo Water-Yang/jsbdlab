@@ -1,0 +1,117 @@
+<include file="Common:head" />
+</head>
+<script>
+	   window.UEDITOR_HOME_URL='__ROOT__/Public/ueditor/';
+    window.onload = function(){
+        window.UEDITOR_CONFIG.initialFrameHeight=400;
+        window.UEDITOR_CONFIG.initialFrameWidth=500;
+        //图片提交到控制器的的路径
+        window.UEDITOR_CONFIG.imageUrl="#"
+        //图片上传的地址
+        window.UEDITOR_CONFIG.imagePath="#";
+        UE.getEditor('');
+    }
+</script>
+<script src="__ROOT__/Public/ueditor/ueditor.config.js"></script>
+<script src="__ROOT__/Public/ueditor/ueditor.all.min.js"></script>
+<body>
+<div class="container">
+	<div class="row">
+	   <div class="col-md-1"></div>
+	   <div class="col-xs-10 ">
+	      <div class="panel-style">
+	      	 <div class=" panel panel-default">
+	         <div class="panel-heading">
+	         	<center>Revise Laboratory Number</center>
+	         </div>
+	         <div class="panel-body">
+	         	<form action="{:U('Admin/Index/reviseNumHandle',array('id'=>$db['id']))}" role="form" method="post" enctype="multipart/form-data" id="ff" onsubmit=" return check()">
+	         	   <div class="form-group">
+	         	   	<label class="control-label">Name:</label>
+	         	   	<input type="text" class="form-control"  value="{$db['name']}" name="name">
+	         	   </div>
+	         	     <div class="form-group">
+	         	   	<label class="control-label">Title:</label>
+	         	   	<select name="ntitle" id="">
+	         	   	    <option value="{$db['ntitle']}"></option>
+	         	   		<option value="1">--Staff--</option>
+	         	   		<option value="2">--Student--</option>
+	         	   		<option value="3">--Professor--</option>
+	         	   	</select>
+	         	   </div>
+	         	   <div class="form-group">
+	         	   	<label class="control-label">Research Interests:</label>
+	         	   	<input type="text" class="form-control" name="interest"  value="{$db['interest']}">
+	         	   </div>
+	         	   <div class="form-group">
+	         	   	<label class="control-label">上传照片</label>
+	         	   	<input type="file" value="photo"  name="photo">
+	         	   </div>
+	         	   <div class="form-group">
+	         	   	<label class="control-label">Short bio:</label>
+	         	   	<textarea id="con" name="message" type="text/plain">{$db['message']}</textarea>
+	         	   </div>
+	         	   <div class="form-group">
+	         	   	  <center><input type="submit" class="btn btn-default" value="submit"  ></center>
+	         	   </div>         		
+	         	</form>
+	         </div>
+	      </div>
+	      </div>
+	   </div>
+	   <div class="col-md-1"></div>
+		
+	</div>
+</div>
+</body>
+<script>
+ var ue = UE.getEditor('con',{
+        	allowDivTransToP: false,
+        	autoHeightEnabled: false,
+        	initialFrameWidth:700  ,//初始化编辑器宽度,默认1000
+            initialFrameHeight:400 ,//初始化编辑器高度,默认320
+        	toolbars: [[
+            'fullscreen', 'source', '|', 'undo', 'redo', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'pasteplain', '|', 'forecolor', 'insertorderedlist', 
+            
+            'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|', 'indent', '|',
+            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|', 'touppercase', 'tolowercase', '|',
+            'link', 'unlink',  '|',
+            'simpleupload','template', '|',
+            'horizontal', 'date', 'time', 'spechars', 'wordimage', '|' ,  'preview',
+        ]]
+        });
+function check(){
+	 var info ='';
+	 var stats = true;
+	 var ff = document.getElementById('ff');
+
+	 if(ff.Name.value==''||ff.ntitle.value==''||ff.message.value==''||ff.interest.value==''){
+	 	if(ff.Name.value == ''){
+	 		info += 'Name';
+	 		stats = false;
+	 	}
+	 	if(ff.ntitle.value==''){
+	 		info += ' Title';
+	 		stats = false;
+	 	}
+	 	if(ff.interest.value==''){
+	 		info += 'interests';
+	 		status = false;
+	 	}
+	 	if(ff.message.value==''){
+	 		info += ' Short bio';
+	 		stats = false;
+	 	}
+	 	    info += ' cannot be empty!';
+	 		alert(info);
+	 		return stats;
+	 }
+
+	 if(ff.photo.value ==''){
+	 	alert('please upload photo!');
+	 	return false;
+	 }
+}
+</script>
+</html>

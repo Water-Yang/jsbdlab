@@ -1,0 +1,58 @@
+<include file='Common:nav' />
+  <title>BIGDATA</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="__CSS__/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="__JS__/jquery-2.1.4.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="__JS__/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="__INDEX__/style.css">
+<link rel="stylesheet" type="text/css" href="__CSS__/index.css">
+<link rel="stylesheet" type="text/css" href="__CSS__/pagination.css">
+<link rel="stylesheet" type="text/css" href="__INDEX__/listbdpone.css">
+<link rel="stylesheet" type="text/css" href="__CSS__/font-awesome.min.css">
+
+    <div class="container">
+        <div class="row">
+	        <div class="col-md-7 col-md-offset-1 ">
+	        	        <ul id="myTab" class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#bulletin" role="tab" data-toggle="tab">Big-Data Scholars</a></li>
+            </ul>
+            <!-- 选项卡面板 -->
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane active" id="bulletin">
+                   <foreach name='list' item='kk'>
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <a href="{:U('Home/BigData/listbdpone',array('id'=>$kk['id']))}"> <img src="__PHOTO__/{$kk['pathname']}"class="photo"></a>
+                                    </div>
+                                    <div class="col-xs-8 col-xs-offset-1">
+                                        <p><b>Name</b> : <a href="{:U('Home/BigData/listbdpone',array('id'=>$kk['id']))}">{$kk['bname']}</a></p>
+                                      <p><b>Email</b> : {$kk['email']}</p> 
+                                     <p><b>Home Page</b> : <a href="{$kk['home']}">
+
+                                         <if condition="$kk['hhh'] eq '' ">
+                                             {$kk['home']}
+                                          <else/>
+                                             {$kk[hhh][0]}
+                                             {$kk[hhh][1]}
+                                             {$kk[hhh][2]}
+                                         </if>
+                                     </a></p>
+                                      <p><b>Specialty</b> : {$kk['fpara']}</p>
+                                    </div>
+                                </div>  
+                            <hr style="margin-top:8px;margin-bottom:5px;">
+                        </foreach>    
+                    <div class="pagenation pagenation-small"><center>{$page}</center></div>
+                </div>
+                
+            </div>
+            </div>
+            <include file="Common:slide"/>
+        </div>	   
+    </div>
+     <include file='Common:footer'/>
+</body>
+</html>

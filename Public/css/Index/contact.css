@@ -1,0 +1,11 @@
+  #cont{
+    height: 450px;
+  border-radius:5px; 
+}
+.map{
+  height: 335px;
+  width: 100%;
+  border: 1px solid #e9e9ea;
+  border-radius: 3px ;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+[ 2015-10-05T19:10:00+08:00 ] ::1 /jsbdlab/index.php/Home/Lab/contact.html
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-10-05T23:25:16+08:00 ] ::1 /jsbdlab/index.php/Home/Index/research.html
+ERR: 非法操作:research
+
+[ 2015-10-05T23:25:54+08:00 ] ::1 /jsbdlab/index.php/Home/Lab/bdt.html
+ERR: 非法操作:bdt
+
+[ 2015-10-05T23:28:05+08:00 ] ::1 /jsbdlab/index.php/Home/Index/research.html
+ERR: 非法操作:research
+

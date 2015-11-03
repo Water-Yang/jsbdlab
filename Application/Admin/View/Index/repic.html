@@ -1,0 +1,80 @@
+<include file="Common:head"/>
+<script src="__ROOT__/Public/ueditor/ueditor.config.js"></script>
+<script src="__ROOT__/Public/ueditor/ueditor.all.min.js"></script>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<center>Revise Picture News</center>
+					</div>
+					<div class="panel-body">
+						<form action="{:U('Admin/Index/repichandle',array('id'=>$db['id']))}" method="post" role="form" id="ff" onsubmit=" return check()" enctype="multipart/form-data">
+					       <div class="form-group">
+					        <label>Title：</label>
+					        <input type="text" class="form-control" name="ptitle" value="{$db[ptitle]}">
+				         	</div>
+				         	<div class="form-group">
+				         		<label for="">Upload photo(750x395px)</label>
+				         		<input type="file" name="photo" >
+				         	</div>
+				         	<div class="form-group">
+				         	<label>Content:</label>
+				            <textarea id="content" name="pcontent" type="text/plain">{$db['pcontent']}</textarea>
+				         	</div>
+				         	<div class="form-group">
+				         		<center><input type="submit" class="btn btn-default" value="Submit"  id="Add"></center>
+				         	</div>
+				        </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+ <script type="text/javascript">
+        var ue = UE.getEditor('content',{
+        	allowDivTransToP: false,
+        	autoHeightEnabled: false,
+        	initialFrameWidth:910  ,//初始化编辑器宽度,默认1000
+            initialFrameHeight:400 ,//初始化编辑器高度,默认320
+        	toolbars: [[
+            'fullscreen', 'source', '|', 'undo', 'redo', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+            'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
+            'directionalityltr', 'directionalityrtl', 'indent', '|',
+            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|', 'touppercase', 'tolowercase', '|',
+            'link', 'unlink',  '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+            'simpleupload','template', '|',
+            'horizontal', 'date', 'time', 'spechars', 'snapscreen', 'wordimage', '|' , 'deleterow', '|',
+            'print', 'preview', 'searchreplace',
+        ]]
+        });
+
+function check(){
+	var info = '';
+	var stats = true;
+	 var ff= document.getElementById('ff');
+     var content = UE.getEditor('content').hasContents();
+     if(ff.ptitle.value ==''||content ==''){
+	      if(ff.ptitle.value ==''){
+              info += 'Title';
+              stats = false;
+	      }
+	     if (content == '') {
+		     info += ' Content';
+		     stats = false;
+		 }
+		 info += ' cannot not be empty!';
+		 alert(info);
+		 UE.getEditor('content').focus();//光标返回编辑器中
+          return stats ;
+     }
+
+     return stats;
+}
+    
+    </script>
+</html>

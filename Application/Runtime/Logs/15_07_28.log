@@ -1,0 +1,66 @@
+[ 2015-07-28T09:31:20+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:32:03+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:32:03+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:32:07+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:32:23+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:32:23+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:33:21+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:33:22+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-07-28T09:46:05+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T09:46:24+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T09:46:25+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T09:51:53+08:00 ] ::1 /jsbdlab/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T09:52:22+08:00 ] ::1 /jsbdlab/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T09:52:23+08:00 ] ::1 /jsbdlab/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T14:23:43+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/addNubHandle.html
+ERR: 非法操作:addnubhandle
+
+[ 2015-07-28T15:27:07+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/listNum.html
+ERR: XML标签语法错误
+
+[ 2015-07-28T15:39:35+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/listNum.html
+ERR: XML标签语法错误 : name="dbk" item="kk"/
+
+[ 2015-07-28T15:53:45+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/revise/id/11.html
+ERR: 非法操作:revise
+
+[ 2015-07-28T18:15:36+08:00 ] ::1 /jsbdlab/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T18:17:15+08:00 ] ::1 /jsbdlab/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T18:17:22+08:00 ] ::1 /jsbdlab/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+
+[ 2015-07-28T18:19:02+08:00 ] ::1 /jsbdlab/index.php/Admin/Login/logout.html
+ERR: 非法操作:logout
+

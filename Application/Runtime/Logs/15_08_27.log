@@ -1,0 +1,24 @@
+[ 2015-08-27T14:16:57+08:00 ] ::1 /jsbdlab/index.php/Home/Index/labnewspre.html
+ERR: 非法操作:labnewspre
+
+[ 2015-08-27T14:20:29+08:00 ] ::1 /jsbdlab/index.php/Home/Index/labnewspre.html
+ERR: 模板不存在:./Application/Home/View/Index/labnewspre.html
+
+[ 2015-08-27T15:43:19+08:00 ] ::1 /jsbdlab/index.php/Home/Index/labnewsnext.html
+ERR: 模板不存在:./Application/Home/View/Index/labnewsnext.html
+
+[ 2015-08-27T16:05:04+08:00 ] ::1 /jsbdlab/index.php/Home/Index/eventnext/id/11.html
+ERR: 非法操作:eventnext
+
+[ 2015-08-27T16:22:43+08:00 ] ::1 /jsbdlab/index.php/Home/Index/eventnext/id/11.html
+ERR: 模板不存在:./Application/Home/View/Index/eventnext.html
+
+[ 2015-08-27T17:18:19+08:00 ] ::1 /jsbdlab/index.php/Home/Index/atcpre/id/45.html
+ERR: 模板不存在:./Application/Home/View/Index/atcpre.html
+
+[ 2015-08-27T18:33:26+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/_/jsbdlab/Public/css/index.css
+ERR: 非法操作:_
+
+[ 2015-08-27T18:33:57+08:00 ] ::1 /jsbdlab/index.php/Admin/Index/_/jsbdlab/Public/css/index.css
+ERR: 非法操作:_
+

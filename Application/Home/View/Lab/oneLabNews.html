@@ -1,0 +1,31 @@
+<include file='Common:nav' />
+  <title>BIGDATA</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="__CSS__/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="__JS__/jquery-2.1.4.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="__JS__/bootstrap.min.js"></script>
+ <script src='__JS__/responsive.js'></script>
+<link rel="stylesheet" type="text/css" href="__INDEX__/style.css">
+<link rel="stylesheet" type="text/css" href="__CSS__/index.css">
+<link rel="stylesheet" type="text/css" href="__CSS__/font-awesome.min.css">
+    <div class="container">
+        <div class="row">
+	        <div class="col-md-7 col-md-offset-1 ">
+	        	<p><center><h4>{$listone['lntitle']}</h5></center></p>
+	            {$listone['lncontent']}
+
+              <center>
+                   <a href="{:U('Home/Lab/labnewspre',array('id'=>$listone['id']))}" class="button  button-border button-rounded button-primary button-tiny">Prev</a>
+                    <a href="{:U('Home/Lab/listLabNews')}" class="button  button-border button-rounded button-primary button-tiny">More</a>
+                   <a href="{:U('Home/Lab/labnewsnext',array('id'=>$listone['id']))}" class="button  button-border button-rounded button-primary button-tiny">Next</a>
+               </center>   
+            </div>
+            <include file="Common:slide"/>
+        </div>	   
+    </div>
+      <include file='Common:footer'/>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<include file="Common:head"/>
+<link rel="stylesheet" type="text/css" href="__CSS__/button.css">
+<body >
+	<div class="container">
+		<div class="row">
+		    <div class="col-md-12">
+				<div class="panel panel-primary">
+				    <div class="panel-heading">
+				        <i class="glyphicon glyphicon-list-alt"></i>&nbsp;&nbsp;Big-data events
+				    </div>
+				    <div class="panel-body">
+				    	<div class="table-response">
+				             <table class="table table-bordered">
+				                <thead>
+				                	<tr>
+				                	   <td class="col-xs-1"><center><b>ID</b></center></td>
+					            		<td class="col-xs-6"><center><b>Title</b></center></td>
+					            		<td class="col-xs-1"><center>Activation	</center></td>
+					            		<td class="col-xs-4"><center><b>Operation</b></center></td>
+				                	</tr>
+				                </thead>
+				                <foreach name="event" item="kk">
+				                   <tbody>
+				                   	<tr>
+				                   	  <td><center> <button class="button button-primary button-circle button-small">{$kk['id']}</button></center></td>
+				                  		<td>{$kk['title']}</td>
+				                   		<td><center>
+				                   			<if condition="$kk[active] eq 1">
+			                                   <button class="button button-action button-circle button-tiny"> Y</button>
+			                                <else/>
+			                                 <button class="button button-caution button-circle button-small">N</button>
+			                                </if>
+				                   		</center></td>
+				                   		<td>
+				                   		  <center>	
+				                   		  <P>
+				                   			<a href="{:U('Admin/Index/xiuevent',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">修改</a>
+				                   			<a href="{:U('Admin/Index/delEvent',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">删除</a>
+				                   			<a href="{:U('Admin/Index/aEvent',array('id'=>$kk['id']))}" class="button button-primary button-pill button-tiny">发表</a>
+				                   		  </P>
+				                   		  </center>
+				                   		  <center>
+				                   		  <p>
+				                   		  	<a href="{:U('Admin/rank/up_event_order',array('id'=>$kk['id']))}" class="button button-info button-pill button-tiny">升一位</a>
+				                   			<a href="{:U('Admin/rank/ccl_event',array('id'=>$kk['id']))}" class="button button-caution button-pill button-tiny">取消</a>
+				                   			<a href="{:U('Admin/rank/down_event_order',array('id'=>$kk['id']))}" class="button button-info button-pill button-tiny">降一位</a>
+				                   		  </p>
+				                   		  </center>
+				                   		</td>
+				                   	</tr>
+				                   </tbody>
+				                </foreach>
+				             </table> 
+			                 <div class="pagenation pagenation-small"><center>{$page}</center></div>     	
+			            </div> 
+				    </div>	    
+				</div>       
+            </div> 		      
+	   </div>
+    </div>
+</body>
+</html>

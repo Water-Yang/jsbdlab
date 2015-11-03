@@ -1,0 +1,80 @@
+[ 2015-09-11T23:52:37+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.001986s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>32 ) LIMIT 2   [ RunTime:0.001120s ]
+
+[ 2015-09-11T23:52:38+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.002133s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>34 ) LIMIT 2   [ RunTime:0.000273s ]
+
+[ 2015-09-11T23:52:39+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.001960s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>36 ) LIMIT 2   [ RunTime:0.000239s ]
+
+[ 2015-09-11T23:52:40+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.001588s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>38 ) LIMIT 2   [ RunTime:0.000226s ]
+
+[ 2015-09-11T23:52:42+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.001712s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>40 ) LIMIT 2   [ RunTime:0.000247s ]
+
+[ 2015-09-11T23:52:43+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_bdpeople` [ RunTime:0.001518s ]
+SQL: SELECT * FROM `bd_bdpeople` WHERE ( `active` = 1 ) AND ( id>40 ) LIMIT 2   [ RunTime:0.000308s ]
+
+[ 2015-09-11T23:52:46+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebde
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.001856s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) AND ( id<17 ) ORDER BY id desc LIMIT 2   [ RunTime:0.000348s ]
+
+[ 2015-09-11T23:52:47+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebde
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.002159s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) AND ( id<15 ) ORDER BY id desc LIMIT 2   [ RunTime:0.000263s ]
+
+[ 2015-09-11T23:52:49+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebde
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.001482s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) AND ( id<12 ) ORDER BY id desc LIMIT 2   [ RunTime:0.001423s ]
+
+[ 2015-09-11T23:52:51+08:00 ] ::1 /jsbdlab/index.php/Home/Index/morebde
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Library/WebServer/Documents/jsbdlab/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bd_event` [ RunTime:0.002157s ]
+SQL: SELECT * FROM `bd_event` WHERE ( `active` = 1 ) AND ( id<11 ) ORDER BY id desc LIMIT 2   [ RunTime:0.000222s ]
+

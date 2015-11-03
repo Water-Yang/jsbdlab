@@ -1,0 +1,67 @@
+<include file="Common:head"/>
+<style>
+	html ,body{
+		height: 100%;
+	}
+</style>
+<script src="__ROOT__/Public/ueditor/ueditor.config.js"></script>
+<script src="__ROOT__/Public/ueditor/ueditor.all.min.js"></script>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<center>Add Contact information</center>
+					</div>
+					<div class="panel-body">
+						<form action="{:U('Admin/Contact/addcchandle')}" method="post" role="form" id="ff" onsubmit=" return check()" enctype="multipart/form-data">
+					       <div class="form-group">
+					        <label>Tel：</label>
+					        <input type="text" class="form-control" name="tel">
+				         	</div>
+                  <div class="form-group">
+                  <label class="control-label">Email:</label>
+                  <input type="text" class="form-control" name="email" >
+                 </div>
+                 <div class="form-group">
+                  <label class="control-label">Address：</label>
+                  <input type="text" class="form-control" name="address" >
+                 </div>
+				         	<div class="form-group">
+				         		<center><input type="submit" class="btn btn-primary" value="submit"  id="Add"></center>
+				         	</div>
+				        </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+ <script type="text/javascript">
+ function check(){
+	var info = '';
+	var stats = true;
+    var kk= document.getElementById('ff');
+   if(kk.tel.value == ''||kk.email.value ==''||kk.address.value==''){
+   	 if(kk.tel.value == ''){
+   	 	info += 'Telephone';
+   	 	stats = false;
+   	 }
+     if(kk.email.value==''){
+      info +='  Email';
+      stats = false;
+     }
+     if(kk.address.value==''){
+      info += ' Address';
+      stats = false;
+     }
+   	 info += ' cannot be empty!';
+     alert(info);
+     return stats;
+   }else{
+     return stats;   
+   }
+ }
+    </script>
+</html>

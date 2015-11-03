@@ -1,0 +1,43 @@
+  body{
+        background:#F9F9F9;
+    }
+    .container{
+        margin-top: 70px;
+        background:#F9F9F9;
+    }
+    .kk{
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        float: left;
+        margin-top: 5px;
+    }
+     .tt{
+        background: #ffffff;
+        margin-top:-5px; 
+        padding-bottom: 10px;
+    }
+    .ka{
+       margin-top: 5px;
+       background: white;
+       padding-top:30px ;
+       padding-bottom: 20px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      -webkit-box-shadow: #666 0px 0px 2px;
+      -moz-box-shadow: #666 0px 0px 2px;
+      box-shadow: #666 0px 0px 2px;
+          }
+    .ka img{
+      width: 75px;
+      height: 93px;   
+      margin-left: 20px;
+    }
+    .ka b{
+      color:blue;
+    }
+    .ka p{
+      margin-top: 15px;
+      margin-left: 20px;
+    } 

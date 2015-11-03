@@ -1,0 +1,106 @@
+<include file="Common:head"/>
+<script src="__ROOT__/Public/ueditor/ueditor.config.js"></script>
+<script src="__ROOT__/Public/ueditor/ueditor.all.min.js"></script>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<center>Add Big-Data Scholar</center>
+					</div>
+					<div class="panel-body">
+						<form action="{:U('Admin/Index/addBdpHandle')}" method="post" role="form" id="ff" onsubmit=" return check()" enctype="multipart/form-data">
+					       <div class="form-group">
+					        <label>Name：</label>
+					        <input type="text" class="form-control" name="bname" placeholder='Name'>
+				         	</div>
+                  <div class="form-group">
+                  <label class="control-label">Specialty:</label>
+                  <input type="text" class="form-control" name="fpara" placeholder="Specialty">
+                 </div>
+                 <div class="form-group">
+                  <label class="control-label">Home</label>
+                  <input type="text" class="form-control" name="home" placeholder=" please begain at http://...   for example:http://www.baidu.com">
+                 </div>
+                 <div class="form-group">
+                  <label class="control-label">Email</label>
+                  <input type="text" class="form-control" name="email" placeholder="Email">
+                 </div>
+                 <div class="form-group">
+                   <label>Head portrait (120x150 px)</label>
+                   <input type="file" value="photo"  name="photo">
+                 </div>
+				         	<div class="form-group">
+				         	<label>Introduction:</label>
+				            <script id="con" name="introduction" type="text/plain"></script>
+				         	</div>
+				         	<div class="form-group">
+				         		<center><input type="Submit" class="btn btn-primary" value="Submit"  id="Add"></center>
+				         	</div>
+				        </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+ <script type="text/javascript">
+        var ue = UE.getEditor('con',{
+        	allowDivTransToP: false,
+        	autoHeightEnabled: false,
+        	initialFrameWidth:910  ,//初始化编辑器宽度,默认1000
+            initialFrameHeight:400 ,//初始化编辑器高度,默认320
+        	toolbars: [[
+            'fullscreen', 'source', '|', 'undo', 'redo', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+            'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
+            'directionalityltr', 'directionalityrtl', 'indent', '|',
+            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|', 'touppercase', 'tolowercase', '|',
+            'link', 'unlink',  '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+            'simpleupload','template', '|',
+            'horizontal', 'date', 'time', 'spechars', 'snapscreen', 'wordimage', '|' , 'deleterow', '|',
+            'print', 'preview', 'searchreplace',
+        ]]
+    });
+ function check(){
+	var info = '';
+	var stats = true;
+    var kk= document.getElementById('ff');
+    var content = UE.getEditor('con').hasContents();
+   
+   if(kk.bname.value == ''||content== ''||kk.fpara.value ==''||kk.home.value==''||kk.email.value==''||kk.photo.value==''){
+   	 if(kk.bname.value == ''){
+   	 	info += 'Name';
+   	 	stats = false;
+   	 }
+     if(kk.fpara.value==''){
+      info +='  Description';
+      stats = false;
+     }
+     if(kk.home.value==''){
+      info += ' Home';
+      stats = false;
+     }
+     if(kk.email.value==''){
+      info +=' Email';
+      stats = false;
+     }
+   	 if(content == ''){
+   	 	info +=' Introduction';
+      stats = false;
+   	 }
+     if(kk.photo.value==''){
+      info += ' Head portrait';
+      stats= false;
+     }
+   	 info += ' cannot be empty!';
+     alert(info);
+     return stats;
+   }else{
+     return stats;   
+   }
+ }
+    </script>
+</html>

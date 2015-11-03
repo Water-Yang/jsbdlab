@@ -1,0 +1,77 @@
+<include file="Common:head"/>
+<link rel="stylesheet" href="__CSS__/button.css">
+<link rel="stylesheet" href="__CSS__/pagenation.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<body >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <li class="glyphicon glyphicon-book"></li>&nbsp;&nbsp;<b>The Laboratory pictrue</b>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-response">
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <td class="col-xs-1"><center><b>ID</b></center></td>
+                                    <td class="col-xs-5"><center><b>Picture</b></center></td>
+                                    <td class="col-xs-1"> <center><b>Activation</b></center></td>
+                                    <td class="col-xs-4"><center><b>Operation</b></center></td>
+                                </tr>
+                                </thead>
+                                <foreach name="list" item="kk">
+                                    <tbody>
+                                    <tr> 
+                                        <td>
+                                           <center> <button class="button button-primary button-circle button-small">{$kk['id']}</button></center> 
+                                        </td>
+                                        <td>
+                                            <center><img src="__PHOTO__/{$kk['pathname']}" alt="" style="width: 150px;height: 100px; margin: 0 auto;"></center>
+                                        </td>
+                                        <td>
+                                         <center>
+                                             <br>
+                                             <div style="margin:0 auto;">
+                                                 <if condition="$kk['active'] eq 1">
+                                                     <button class="button button-circle button-action button-samll">
+                                                         Y
+                                                     </button>
+                                                     <else/>
+                                                     <button class="button button-circle button-caution button-samll">
+                                                         N
+                                                     </button>
+                                                 </if>
+                                             </div>
+                                         </center>
+                                        </td>
+                                        <td>
+                                            <br>
+                                            <br>
+                                            <center>
+                                                <p><a href="{:U('Admin/Lab/dellpic',array('id'=>$kk['id']))}" class="button  button-caution button-pill button-small"> 删除</a>
+                                                <a href="{:U('Admin/Lab/lpicactive',array('id'=>$kk['id']))}" class="button button-action button-pill button-small"> 发表</a></p>
+                                                </center>
+                                                <center>
+                                                <p>
+                                            <!--     <a href="{:U('Admin/rank/up_lpic_order',array('id'=>$kk['id']))}" class="button button-info button-pill button-small"> 升一位</a> -->
+                                                <a href="{:U('Admin/rank/ccllpic',array('id'=>$kk['id']))}" class="button  button-caution button-pill button-small">取消</a>
+                                              <!--   <a href="{:U('Admin/rank/down_lpic_order',array('id'=>$kk['id']))}" class="button button-info button-pill button-small"> 降一位</a> -->
+                                                </p>
+                                            </center>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </foreach>
+                            </table>
+                            <div class="pagenation pagenation-small"><center>{$page}</center></div>
+                        </div>
+                    </div>
+      
+                 </div>
+             </div>
+        </div>
+    </div>    
+</body>
+</html>
