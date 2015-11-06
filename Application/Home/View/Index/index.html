@@ -34,16 +34,32 @@
                             <!-- 轮播（Carousel）项目 -->
                             <div class="carousel-inner">
                                 <div class="item active" >
+                                      <if condition= '$phone eq 1'>
+                                          <img  src="__PHOTO__/{$fpic['pathname']}" style="max-width:100%;min-width:100%;max-height:100%;min-height:58.3%;" title="{$fpic['title']}" >
+                                            <div class="carousel-caption">{$fpic['title']}</div>
+                                      <else/>
                                             <img  src="__PHOTO__/{$fpic['pathname']}" style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" title="{$fpic['title']}" >
                                             <div class="carousel-caption">{$fpic['title']}</div>
+                                      </if>
+                                            
                                 </div>
                                 <div class="item">
-                                    <a href="{:U('Home/Lab/picnews',array('id'=>$pic[0]['id']))}" target='_blank'><img src="__PHOTO__/{$pic[0]['pathname']}" alt="{$pic[0]['ptitle']}" title="{$pic[0]['ptitle']}"style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" /></a>
+                                   <if condition="$phone eq 1">
+                                      <a href="{:U('Home/Lab/picnews',array('id'=>$pic[0]['id']))}" target='_blank'><img src="__PHOTO__/{$pic[0]['pathname']}" alt="{$pic[0]['ptitle']}" title="{$pic[0]['ptitle']}"style="max-width:100%;min-width:100%;max-height:100%;min-height:58.3%;" /></a>
                                     <div class="carousel-caption">{$pic[0]['ptitle']}</div>
+                                   <else/>
+                                        <a href="{:U('Home/Lab/picnews',array('id'=>$pic[0]['id']))}" target='_blank'><img src="__PHOTO__/{$pic[0]['pathname']}" alt="{$pic[0]['ptitle']}" title="{$pic[0]['ptitle']}"style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" /></a>
+                                    <div class="carousel-caption">{$pic[0]['ptitle']}</div>
+                                   </if>
                                 </div>
                                 <div class="item">
-                                    <a href="{:U('Home/Lab/picnews',array('id'=>$pic[1]['id']))}" target='_blank' ><img src="__PHOTO__/{$pic[1]['pathname']}"  style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" alt="{$pic[1]['ptitle']}" title="{$pic[1]['ptitle']}" /></a>
-                                    <div class="carousel-caption">{$pic[1]['ptitle']}</div>
+                                   <if condition="$phone eq 1">
+                                        <a href="{:U('Home/Lab/picnews',array('id'=>$pic[1]['id']))}" target='_blank' ><img src="__PHOTO__/{$pic[1]['pathname']}"  style="max-width:100%;min-width:100%;max-height:100%;min-height:58.3%;" alt="{$pic[1]['ptitle']}" title="{$pic[1]['ptitle']}" /></a>
+                                        <div class="carousel-caption">{$pic[1]['ptitle']}</div>
+                                   <else/>
+                                        <a href="{:U('Home/Lab/picnews',array('id'=>$pic[1]['id']))}" target='_blank' ><img src="__PHOTO__/{$pic[1]['pathname']}"  style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" alt="{$pic[1]['ptitle']}" title="{$pic[1]['ptitle']}" /></a>
+                                       <div class="carousel-caption">{$pic[1]['ptitle']}</div>
+                                   </if> 
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -212,7 +228,7 @@
                                  <p style="font-size: 15px;" >
                                      {$uinfo}
                                   [<a href="{:U('Home/Lab/uinfo',array('id'=>$uid))}"  style="disabled:disabled;color:#337Ab7;">More</a>]
-                                 [<a href="#" role="button" style="disabled:disabled;color:#337Ab7;">
+                                 [<a href="{$url}" role="button" style="disabled:disabled;color:#337Ab7;">Login</a>]
                         </div>
                     </div>
                     </div>

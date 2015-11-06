@@ -3,12 +3,17 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
+        $phone = $_SERVER['HTTP_USER_AGENT'];
+        if(preg_match("/Android/", $phone)){
+          $this->phone = 1;
+        }
+        $this->url = 'http://202.195.79.253:9090/consoles/nodes.html';
         //技术文章
         $satc = M('satc')->order('id desc')->where(array('active'=>1))->limit(6)->select();
          $cst = count($satc);
          for($i = 0;$i<$cst;$i++){
             if(strlen($satc[$i]['title'])>84){
-              $satc[$i]['title'] = substr($satc[$i]['title'],0,76).'...';
+              $satc[$i]['title'] = substr($satc[$i]['title'],0,70).'...';
             }
          }
          $this->satc = $satc;
@@ -17,7 +22,7 @@ class IndexController extends Controller {
         $clbw = count($labnews);
          for($i= 0;$i<$clbw;$i++){
           if(strlen($labnews[$i]['lntitle'])>84){
-            $labnews[$i]['lntitle'] = substr( $labnews[$i]['lntitle'],0,76).'...';
+            $labnews[$i]['lntitle'] = substr( $labnews[$i]['lntitle'],0,70).'...';
           }
          }$this->labnews = $labnews;
         //大数据人物
@@ -25,7 +30,7 @@ class IndexController extends Controller {
         $cbdp = count($bdp);
         for($i = 0 ;$i < $cbdp;$i++){
           if(strlen($bdp[$i]['fpara'])>43){
-              $bdp[$i]['fpara']= substr( $bdp[$i]['fpara'],0,40).'...';
+              $bdp[$i]['fpara']= substr( $bdp[$i]['fpara'],0,36).'...';
           }
         }
         $this->bdp= $bdp;
@@ -34,7 +39,7 @@ class IndexController extends Controller {
         $cet = count($event);
          for($i = 0;$i<$cet;$i++){
           if(strlen($event[$i]['title'])>80){
-             $event[$i]['title'] = substr($event[$i]['title'],0,76).'...';
+             $event[$i]['title'] = substr($event[$i]['title'],0,70).'...';
           }
          }
          $this->event = $event;

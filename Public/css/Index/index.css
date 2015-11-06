@@ -31,7 +31,7 @@
       background: #f5f5f5;
     }
     .col-md-8 .item{
-      height: 395px;
+      height: 404px;
     }
   .col-md-6 .labpic {
       -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.8), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -7px 0 rgba(0,0,0,.6), inset 0 -9px 0 rgba(255,255,255,.3);
@@ -56,20 +56,20 @@
   .footer a{
     color:white;
   }
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 500px){
       .col-md-4 {
-        font-size: 14px;
+        font-size: 12px;
       }
       .col-md-8 .item{
-        min-height: 260px;
-        max-height: 260px;
+        min-height: 230px;
+        max-height: 230px;
       }
       .col-md-8 .carousel-inner{
-        min-height: 260px;
-        max-height: 260px;
+        min-height: 230px;
+        max-height: 230px;
       }
       .col-md-8 img{
-        height: 260px;
+        height: 230px;
       }
       .col-md-6 .labpic{
         min-width: 80%;
@@ -79,23 +79,23 @@
     }
     @media screen and (max-width: 375px){
                 .col-md-4 {
-                font-size: 13px;
+                font-size: 11px;
               }
              .col-md-6 .labpic{
                 width: 100%;
                 height: 140px;
               }
             .col-md-8 .carousel-inner{
-                 min-height: 180px;
-                 max-height: 180px;
+                 min-height: 230px;
+                 max-height: 230px;
               }
             .col-md-8 .item{
-              min-height: 180px;
-              max-height: 180px;
+              min-height: 230px;
+              max-height: 230px;
            }
               .col-md-8 img{
-                min-height: 180px;
-                max-height: 180px;
+                min-height: 230px;
+                max-height: 230px;
               }
     }
    

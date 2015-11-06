@@ -50,7 +50,7 @@
 						<li><a href="<?php echo U('Home/Lab/labint');?>">Research</a></li>
 						<li><a href="<?php echo U('Home/Index/bdt');?>">Bigdata</a></li>
 						<li><a href="<?php echo U('Home/Lab/people');?>">People</a></li>
-						<li><a  href="#"  >Login</a></li>
+						<li><a href="<?php echo ($url); ?>"  >Login</a></li>
 						<li><a href="<?php echo U('Home/Lab/contact');?>">Contact Us</a></li>
 						<div class="clearfix"> </div>
 					</ul>
@@ -84,16 +84,26 @@
                             <!-- 轮播（Carousel）项目 -->
                             <div class="carousel-inner">
                                 <div class="item active" >
-                                            <img  src="/jsbdlab/Uploads/<?php echo ($fpic['pathname']); ?>" style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" title="<?php echo ($fpic['title']); ?>" >
+                                      <?php if($phone == 1): ?><img  src="/jsbdlab/Uploads/<?php echo ($fpic['pathname']); ?>" style="max-width:100%;min-width:100%;max-height:100%;min-height:58.3%;" title="<?php echo ($fpic['title']); ?>" >
                                             <div class="carousel-caption"><?php echo ($fpic['title']); ?></div>
+                                      <?php else: ?>
+                                            <img  src="/jsbdlab/Uploads/<?php echo ($fpic['pathname']); ?>" style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" title="<?php echo ($fpic['title']); ?>" >
+                                            <div class="carousel-caption"><?php echo ($fpic['title']); ?></div><?php endif; ?>
+                                            
                                 </div>
                                 <div class="item">
-                                    <a href="<?php echo U('Home/Lab/picnews',array('id'=>$pic[0]['id']));?>" target='_blank'><img src="/jsbdlab/Uploads/<?php echo ($pic[0]['pathname']); ?>" alt="<?php echo ($pic[0]['ptitle']); ?>" title="<?php echo ($pic[0]['ptitle']); ?>"style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" /></a>
+                                   <?php if($phone == 1): ?><a href="<?php echo U('Home/Lab/picnews',array('id'=>$pic[0]['id']));?>" target='_blank'><img src="/jsbdlab/Uploads/<?php echo ($pic[0]['pathname']); ?>" alt="<?php echo ($pic[0]['ptitle']); ?>" title="<?php echo ($pic[0]['ptitle']); ?>"style="max-width:100%;min-width:100%;max-height:100%;min-height:58.3%;" /></a>
                                     <div class="carousel-caption"><?php echo ($pic[0]['ptitle']); ?></div>
+                                   <?php else: ?>
+                                        <a href="<?php echo U('Home/Lab/picnews',array('id'=>$pic[0]['id']));?>" target='_blank'><img src="/jsbdlab/Uploads/<?php echo ($pic[0]['pathname']); ?>" alt="<?php echo ($pic[0]['ptitle']); ?>" title="<?php echo ($pic[0]['ptitle']); ?>"style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" /></a>
+                                    <div class="carousel-caption"><?php echo ($pic[0]['ptitle']); ?></div><?php endif; ?>
                                 </div>
                                 <div class="item">
-                                    <a href="<?php echo U('Home/Lab/picnews',array('id'=>$pic[1]['id']));?>" target='_blank' ><img src="/jsbdlab/Uploads/<?php echo ($pic[1]['pathname']); ?>"  style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" alt="<?php echo ($pic[1]['ptitle']); ?>" title="<?php echo ($pic[1]['ptitle']); ?>" /></a>
-                                    <div class="carousel-caption"><?php echo ($pic[1]['ptitle']); ?></div>
+                                   <?php if($phone == 1): ?><a href="<?php echo U('Home/Lab/picnews',array('id'=>$pic[1]['id']));?>" target='_blank' ><img src="/jsbdlab/Uploads/<?php echo ($pic[1]['pathname']); ?>"  style="max-width:100%;min-width:100%;max-height:100%;min-height:58.3%;" alt="<?php echo ($pic[1]['ptitle']); ?>" title="<?php echo ($pic[1]['ptitle']); ?>" /></a>
+                                        <div class="carousel-caption"><?php echo ($pic[1]['ptitle']); ?></div>
+                                   <?php else: ?>
+                                        <a href="<?php echo U('Home/Lab/picnews',array('id'=>$pic[1]['id']));?>" target='_blank' ><img src="/jsbdlab/Uploads/<?php echo ($pic[1]['pathname']); ?>"  style="max-width:100%;min-width:100%;max-height:100%;min-height:100%;" alt="<?php echo ($pic[1]['ptitle']); ?>" title="<?php echo ($pic[1]['ptitle']); ?>" /></a>
+                                       <div class="carousel-caption"><?php echo ($pic[1]['ptitle']); ?></div><?php endif; ?> 
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -254,7 +264,7 @@
                                  <p style="font-size: 15px;" >
                                      <?php echo ($uinfo); ?>
                                   [<a href="<?php echo U('Home/Lab/uinfo',array('id'=>$uid));?>"  style="disabled:disabled;color:#337Ab7;">More</a>]
-                                 [<a href="#" role="button" style="disabled:disabled;color:#337Ab7;">
+                                 [<a href="<?php echo ($url); ?>" role="button" style="disabled:disabled;color:#337Ab7;">Login</a>]
                         </div>
                     </div>
                     </div>
