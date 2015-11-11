@@ -56,6 +56,7 @@
   .footer a{
     color:white;
   }
+<<<<<<< HEAD
   @media screen and (max-width: 768px){
       .col-md-5{
         padding-top: 1px;
@@ -66,8 +67,11 @@
     }
   }
   @media screen and (max-width: 500px){
+=======
+  @media screen and (max-width: 600px){
+>>>>>>> 7999df21ff94ec7ab02b018df65e72f69fdbe176
       .col-md-4 {
-        font-size: 12px;
+        font-size: 11px;
       }
       .col-md-8 .item{
         min-height: 230px;
