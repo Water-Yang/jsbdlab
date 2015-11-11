@@ -86,13 +86,17 @@ body a{
 		padding:0.4em;
 	}	
 	.top-nav {
-	  margin-top: 21px;
-	  margin-right: 3px;
+	  margin-top:21px;
+	  margin-right:3px;
 	}
 	.logo h1{
-	  margin-left: 0px;
+	  margin-left:0px;
+	}
+	.logo h1 {
+		margin-left: 3px;
 	}
     .logo{
-    	width: 270px;
+    	width: 276px;
+    	height: 66px;
     }
 }

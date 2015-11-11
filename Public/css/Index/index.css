@@ -56,6 +56,15 @@
   .footer a{
     color:white;
   }
+  @media screen and (max-width: 768px){
+      .col-md-5{
+        padding-top: 1px;
+      border-top: 1px solid #e9e9e9;       
+    }
+    .col-md-7{
+      padding-bottom: 5px;
+    }
+  }
   @media screen and (max-width: 500px){
       .col-md-4 {
         font-size: 12px;
@@ -75,7 +84,6 @@
         min-width: 80%;
         height: 170px;
       }
-
     }
     @media screen and (max-width: 375px){
                 .col-md-4 {
